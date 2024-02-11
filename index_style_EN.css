@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+body{
+margin:0;
+max-width: 100%;
+overflow-x: hidden;
+}
+html{
+	scroll-behavior: smooth;
+}
+	#left{
+		height:100%;
+		width: 50%;
+		text-align:center;
+	}
+	#right{
+		height:100%;
+		width: 50%;
+		margin-left: 50%;
+		text-align: center;
+	}
+	table{
+		background-image: url("bg.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		width: 100%;
+		height:100%;
+		position: absolute;
+	}
+	td{
+		font-family: 'Cinzel', serif;
+		transition: 0.3s;
+	}
+	td:hover{
+		background-color: rgba(255, 255, 255, 0.4);
+		cursor: pointer;
+		transition: 0.7s;
+	}
+	h1{
+		font-size: 3em;
+		background-color: rgba(255, 255, 255, 0.4);
+		color:rgb(22, 22, 22);
+		display: inline-block;
+		padding: 10px;
+		border-radius: 10px;
+		transition: 0.7s;
+		margin-top: 45%;
+		text-align: center;
+	}
+	td:hover h1{
+		transition: 0.7s;
+	}
+	a{
+		text-emphasis: none;
+		text-decoration: none;
+		position: relative;
+		display: inline-block;
+		height:100%;
+		width:100%;
+		text-align:center;
+	}
+	.ani::after{
+		content:"";
+	   	width:0px;
+	   	height:2px;
+	   	background:#2c3e50;
+	   	display: block;
+	   	transition: width 1s;
+   }
+   td:hover .ani::after{
+	   	width:100%;
+	   	transition: width 1s;	   
+   }

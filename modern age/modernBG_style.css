@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 220, 220);
+}
+
+#nav{
+    background-color: rgb(0, 35, 35);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width:100%;
+}
+#nav a{
+    display: block;
+  color: rgb(255, 220, 220);
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ font-family: 'Cinzel', serif;
+  transition:0.3s;
+}
+#nav a:hover{
+	transition:0.7s;
+}
+li{
+    display:inline-block;
+}
+.ani::after{
+    content:"";
+    width:0px;
+    height:2px;
+    background: rgb(255, 220, 220);
+    display: block;
+    transition: width 1s;
+}
+.ani:hover::after{
+    width:100%;
+    transition: width 1s; 
+}
+p{
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    text-align: justify;
+    padding:1%;
+    display:inline-block;
+    width: 94%;
+    justify-content: center;
+}
+.parallax{
+   
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#EoaA{
+    background-image: url("modern age photos/vic.jpg");
+    min-height: 500px;
+}
+.textContainer{
+    text-align: center;
+    padding-bottom:1%;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    padding:1%;
+}
+#BFP{
+    background-image:url("modern age photos/entente3.jpg");
+    min-height:500px;
+}
+#WW1{
+    background-image:url("modern age photos/franz.jpg");
+    min-height:500px;
+}
+#postWar{
+    background-image:url("modern age photos/depressionn.jpg");
+    min-height:500px;
+}
+#modernAge{
+    background-image:url("modern age photos/war.jpg");
+    min-height:500px;
+}
+#cmnwlth{
+    background-image:url("modern age photos/cmnwlth2.jpg");
+    min-height:500px;
+}
+#header{
+    height:600px;
+    background-image: url("modern age photos/war.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.content {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 160px;
+  }
+  #end{
+      position: absolute;
+      top:650px;
+  }
+  #kings3{
+    background-image:url("modern age photos/georgevi2.jpg");
+    min-height:500px;
+  }
+  #dictator{
+    background-image:url("modern age photos/hitler.jpeg");
+    min-height:500px;
+  }
+  #ww2{
+    background-image:url("modern age photos/yalta.jpg");
+    min-height:500px; 
+  }
+  #header h1{
+      padding-top: 17%;
+      font-size: 4em;
+      background-color: rgba(255, 255,255 , 0.2);   
+  }
+  #footer{
+      height:400px;
+      background-color: rgb(0, 34, 34);
+      text-align: center;
+  }
+  #footer div{
+    color:rgb(184, 143, 143);
+    display: inline-block;
+    padding: 1%;
+    }
+    #footer p{
+        width: 100%;
+    }
+#footer div h2{
+    font-family: 'Cinzel', serif;
+    display: block;
+}
+#footer span{
+    font-size: 25px;
+    padding-right: 5px;
+}
+#footer a{
+    text-decoration: none;
+    color:rgb(184, 143, 143);
+    transition: 0.5s;
+}
+#footer a:hover{
+    color:rgb(175, 60, 60);
+    transition: 0.5s;
+}
+#kotva{
+    text-decoration: none;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    color: rgb(255, 231, 231);
+    transition: 0.4s;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 17, 17);
+    text-align: center;
+    line-height: 43px;
+    font-size: 30px;
+    padding: 0;
+    border-radius:3px;
+}
+#kotva:hover{
+    color: rgb(0, 17, 17);
+    transition: 0.4s ease-in-out;
+    background-color: rgb(255, 231, 231);
+}
+td{
+    width:22%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0%;
+    vertical-align: top;
+}
+#footer td{
+    padding-top:5%;
+}
+#header span{
+    font-size: 2em;
+    position:absolute;
+    right: 1%;
+    top:1%
+  }
+  #header a{
+    text-emphasis: none;
+    text-decoration: none;
+    color:rgb(0, 35, 35);
+  }
